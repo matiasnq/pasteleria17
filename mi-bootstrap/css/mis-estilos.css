@@ -1,0 +1,287 @@
+body{
+    background-color: #FFBDD4;
+    /*background-image: url(/mi-bootstrap/imagenes/fondo.png);*/
+}
+/*no se utiliza pero esta declarado en fontface
+h1{ 
+    font-family: 'Always In My Heart';
+    color: brown;
+    text-align: center;
+    font-size: 3.125em;/*50px
+    
+}*/
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    color:brown;
+    text-align: center;
+    font-size: 2em;/*45px*/
+}
+
+
+
+
+/***************************
+***************ESTILOS MENU*************/
+/*
+.navbar-brand{
+    font-family: 'Always In My Heart';
+    color: brown!important;
+    font-size: 40px;
+}*/
+.navbar :last-child, .nav-link, .dropdown-item{
+    background-color: saddlebrown!important;
+    color:white!important;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1.1em;
+    text-align: center!important;
+    }
+
+.bg-light {
+    border-top-left-radius: 25px!important;
+    border-top-right-radius: 25px!important;
+    background-color: burlywood!important;
+}
+/* submenu border-radius bien
+.navbar-nav,.nav-link, .nav-item{
+   text-align: center;
+    border-radius: 25px!important;
+}*/
+    
+
+/*REVISAR*/
+#navbarNavDropdown {
+    border-radius: 25px;
+}
+
+.dropdown-menu{
+    border-color: burlywood;
+}
+/************************barra de navegacion*/
+.navbar-nav li {
+    margin-left: 30px;
+}
+.nav-link:hover{
+    background-color:white!important;
+    color:saddlebrown!important;
+       
+}
+
+.dropdown-item:hover{
+    background-color: white!important;
+    color:saddlebrown!important;
+}
+/*fin barra de navegacion*************************/
+
+
+.carousel,.slide{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 5px;
+    max-width: auto;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 5px;
+    /*float: left;*/
+   
+    
+}
+
+.navbar-collapse:active{
+    border-radius: 25px!important;
+}
+
+.redes-sociales li{
+    display: inline-block;
+    font-size: 35px;
+    padding-left: 5px;
+    padding-top: 8%;
+}
+.redes-sociales a:link{
+    text-decoration: none;
+}
+.redes-sociales li:hover{
+    transform: scale(1.2);
+}
+
+.icon-twitter, .icon-facebook2, .icon-instagram{
+    text-decoration: none;
+    color:saddlebrown!important;
+}
+
+.img-responsive{
+    max-width: 100%;
+    height: auto;
+    padding-top: 5px;
+    margin-left: 30px;
+    padding-left: auto;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+}
+.productos:hover{
+    transform: scale(1.2);
+}
+
+.texto-quienes-somos, .texto-contacto{   
+    color:black!important;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1.1em;/*40px*/
+    text-align: justify!important;
+    margin-right: 30px;
+    }
+.texto-quienes-somos{
+    text-align: justify!important;
+    margin-left: 1%!important;
+}
+
+.texto{
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1em;
+    text-align: center;
+    margin-bottom: 5px;
+    text-decoration:none;
+  }
+p{
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1em;
+    text-align: center;
+    margin-bottom: 5px;
+    text-decoration:none;
+}
+
+.texto a:link{
+    text-decoration:none;
+    color: white;
+}
+
+.footer{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    background-color:  burlywood;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/*formulario de contacto*/
+input[type=text], input[type=email],
+textarea {
+    width: 100%;
+    }
+
+.pd{
+    border-top-left-radius: 25px;
+}
+
+.img-banner{
+    margin-top: 1%;
+    border-radius: 25px;
+    margin-left:1%;
+    max-width: 100%;
+    margin-bottom: 1%;
+    
+    height: auto;
+}
+
+.boton{
+    border-radius: 5px;
+    border: none;
+    background-color: saddlebrown;
+    color: white;
+    padding: 1%;
+}
+
+
+/*estilo de galeria----------------------*/
+#galeria{text-align:center; } 
+		#miniaturas{ display: inline;}
+		#miniaturas img{ height: 100px;} 
+		#fotoGrande {height:370px;}
+		#texto{font-family: 'ubuntu', cursive;font-size:20px;position:absolute;bottom:10px;right:10px;padding:8px;color:#fff;background:saddlebrown;line-height:normal;margin:0;}
+		#caja{display:inline-block; margin: 30px auto;position:relative;line-height:0;}
+		.controles img{cursor:pointer;}
+		.actual{outline:2px solid red;}
+		#fotoGrande,
+		#texto,
+		#caja{transition:all 1s ease;overflow:hidden;background-position:center center;background-repeat:no-repeat;opacity:1;}		
+		#caja.cargando {background-image:url(galeria/iconos/loading.gif); }
+		.cargando #fotoGrande,
+		.cargando #texto {opacity:0;}
+
+        #anterior, #siguiente{
+            height: 100px;            
+         }
+
+
+
+/*estilos de tabla********************/
+table.tablapanel {
+  border: 1px solid #1C6EA4;
+  background-color: #EEBD96;
+  width: 104%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.tablapanel td, table.tablapanel th {
+  border: 1px solid #AAAAAA;
+  padding: 6px 2px;
+}
+table.tablapanel tbody td {
+  font-size: 1em;
+  color: #330629;
+}
+table.tablapanel tr:nth-child(even) {
+  background: #F5A387;
+}
+table.tablapanel thead {
+  background: #A41518;
+  background: -moz-linear-gradient(top, #bb4f52 0%, #ad2c2f 66%, #A41518 100%);
+  background: -webkit-linear-gradient(top, #bb4f52 0%, #ad2c2f 66%, #A41518 100%);
+  background: linear-gradient(to bottom, #bb4f52 0%, #ad2c2f 66%, #A41518 100%);
+  border-bottom: 2px solid #444444;
+}
+table.tablapanel thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #27AEF5;
+}
+table.tablapanel thead th:first-child {
+  border-left: none;
+}
+
+table.tablapanel tfoot {
+  font-size: 1em;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.tablapanel tfoot td {
+  font-size: 1em;
+}
+table.tablapanel tfoot .links {
+  text-align: right;
+}
+table.tablapanel tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+#fecha{
+    color:darkslategrey!important;
+    font-size: 2em;
+}
